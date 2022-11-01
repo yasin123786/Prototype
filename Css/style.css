@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Img/as.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8%;
+    padding-left: 6%;
+}
+.logoaa{
+       width: 12%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.2pc;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: .4s;
+}
+nav ul li a:hover{
+    color: rgb(46, 185, 155);
+}
+.jkl{
+    background-color: rgb(46, 185, 155);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    font-size: 1pc;
+    border-radius: 30px;
+    transition: 1s;
+}
+.jkl:hover{
+    background-color: white;
+    color: rgb(46, 185, 155);
+}
+
+
+.la{
+    color: white;
+    text-align: center;
+    font-size: 3pc;
+    margin-top: 3pc;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --orange:#ff7800;
+    /* #ff7800 */
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+section{
+    padding:2rem 9%;
+}
+.tn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    background-color:rgb(46, 185, 155);
+    border:.2rem solid rgb(46, 185, 155);
+    color:white;
+    cursor: pointer;
+}
+
+.tn:hover{
+    background:white;
+    color:rgb(46, 185, 155);
+}
+.categories .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap:1.5rem;
+}
+.categories .box-container .box{
+    padding:3rem 2rem;
+    border-radius: .5rem;
+    background: white;
+    box-shadow: var(--box-shadow);
+    outline:var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+}
+.categories .box-container .box img{
+    margin:1rem 0;
+    height:15rem;
+}
+.categories .box-container .box h3{
+   font-size: 2rem;
+   color:rgb(46, 185, 155);
+   line-height: 1.8;
+}  
+.categories .box-container .box p{
+    font-size: 1.7rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding:1rem 0;
+}
+
+.aout{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.aout img{
+    height: auto;
+    width: 430px;
+}
+.aout-text{
+    width: 550px;
+}
+.mai{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aout-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.aout-text p{
+    color: rgb(46, 185, 155);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: rgb(46, 185, 155);
+    color: white;
+    text-decoration:none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s; 
+}
+button:hover{
+    background-color: white;
+    border: 2px solid white;
+    color:rgb(46, 185, 155);
+    cursor: pointer;
+}
+
+.contact{
+   background-position: center;
+   background-size: cover;
+   background-image: url(../Img/download\ \(1\).jpeg);   
+}
+
+.yyy{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+  }
+  .yyy:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(1.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(20px);
+  }
+  .rrr{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);  
+  }
+  .left{
+    height: 100%;
+    background: url(../Img/images\ \(1\).jpg) no-repeat center;
+    background-size: cover;
+  }
+  .right{
+    padding: 25px 40px;
+  }
+  h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+  }
+  .fielde{
+    width: 100%;
+    padding: 1rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0);
+    background-color:rgba(230, 230, 230, 0.6);
+    font-size: 1.5rem;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+  .fielde:hover{
+    background-color: rgba(0,0,0, 0.1);
+  }
+  .fielde:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250,0.47);
+  }
+  .area{
+    min-height: 150px;
+  }
+  .bt{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    background-color: rgb(46, 185, 155);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .4s;
+    color: #fff;
+  }
+  .bt:hover{
+    background-color: white;
+    color: rgb(46, 185, 155);
+  }
+
+
+
+  .laast{
+    width: 100%;
+    height: 75vh;
+    padding: 100px 0px;
+    background-color: #191919;
+  }
+  .erere{
+    width: 320px;
+    padding: 55px;
+    position: absolute;
+    top: 282%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+}
+.erere h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+}
+.erere input[type="text"],.erere input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(46, 185, 155);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;		
+}
+.erere input[type="password"]{
+    padding: 21px 10px;
+}
+
+input[type="text"]:focus,.erere input[type="password"]:focus{
+    width: 265px;
+    border-color: white;
+}
+.erere input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(46, 185, 155);
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    background: rgb(46, 185, 155);
+}
+.erere input[type="submit"]:hover{
+    background: white;
+    color: rgb(46, 185, 155);
+    border-color: white;
+}
+
+
+.logo{
+    width: 320px;
+    height: 490px;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    top: 282%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+   }
+   .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(85% - 50%);
+   }
+   h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px; 
+   }
+   .logo p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+   }
+   .logo input{
+    width: 100%;
+    margin-bottom: 20px;
+   }
+   .logo input[type="text"], input[type="password"]
+   {
+    border: none;
+    border-bottom: 1px solid rgb(46, 185, 155);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+   }
+   .logo input[type="email"], input[type="phone"]
+   {
+    border: none;
+    border-bottom: 1px solid rgb(46, 185, 155);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+   }
+   .logo input[type="submit"]
+   {
+    border:none;
+    outline:none;
+    height: 40px;
+    background:rgb(46, 185, 155);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+   }
+   .logo input[type="submit"]:hover
+   {
+    cursor: pointer;
+    background: white;
+    color: rgb(46, 185, 155);
+   }
